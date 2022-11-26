@@ -18,11 +18,11 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/swift-libp2p/swift-varint.git", .upToNextMajor(from: "0.0.1")),
-        .package(url: "https://github.com/swift-libp2p/swift-multicodec.git", .upToNextMajor(from: "0.0.1")),
-        .package(url: "https://github.com/swift-libp2p/swift-multibase.git", .upToNextMajor(from: "0.0.1")),
-        .package(url: "https://github.com/swift-libp2p/swift-multihash.git", .upToNextMajor(from: "0.0.1")),
-        .package(url: "https://github.com/swift-libp2p/swift-cid.git", .upToNextMajor(from: "0.0.1"))
+        .package(url: "https://github.com/timechain-academy/swift-varint.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-multicodec.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-multibase.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-multihash.git", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/timechain-academy/swift-cid.git", .upToNextMajor(from: "0.0.1"))
         //.package(name: "PeerID", path: "../PeerID")
     ],
     targets: [
